@@ -2,4 +2,4 @@ packages:
   - "."
 
 onlyBuiltDependencies:
-  - '@tailwindcss/oxide'
+  - "@tailwindcss/oxide"
