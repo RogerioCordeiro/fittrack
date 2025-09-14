@@ -2,12 +2,14 @@
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
+  skipTrailingSlashRedirect: true,
+  distDir: 'out',
   images: {
     unoptimized: true,
   },
-  // Se o seu repositório não estiver na raiz do GitHub Pages, descomente e configure:
-  // basePath: '/nome-do-repositorio',
-  // assetPrefix: '/nome-do-repositorio/',
+  // Para funcionar com subpaths no GitHub Pages
+  basePath: '/fittrack',
+  assetPrefix: '/fittrack/',
 };
 
 module.exports = nextConfig;
